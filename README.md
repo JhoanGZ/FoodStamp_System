@@ -5,7 +5,7 @@
 
 ## Overview
 
-**Project Name** is a PHP-based application developed as part of a university module for Database Management. This project was a collaborative effort among multiple contributors, showcasing our skills in backend development, database management, and user interface design.
+**Project Name** is a PHP-based application developed as part of a university module for Database Management. This project was a collaborative effort among multiple contributors, showcasing our skills in backend development, database management, and user interface design. This project was created in winter's season of 2022.
 
 ## Features
 
