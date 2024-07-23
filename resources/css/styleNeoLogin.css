@@ -1,0 +1,165 @@
+
+/* NOTE Funciona con mejor compatibilidad en Chrome/Chromium */
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+body { 
+    background-color: #eee;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 10%;
+    text-size-adjust: 10%;
+    font-size: 1vw;
+}
+
+#sebadLogo {
+    display: block;
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    box-shadow: 0 10px 50px #ccc;
+}
+
+#aiepLogo {
+    display: block;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    width: 12%;
+    box-shadow: 0 10px 50px #ccc;
+}
+
+
+#login {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    /* padding-top: 1%; */
+    text-align: justify;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 1%;
+}
+
+input {
+    text-align: center;
+}
+
+::-webkit-input-sobreSalto {
+    text-align: center;
+}
+
+:-moz-sobreSalto {
+    text-align: center;
+}
+
+.setModificado::after {
+    content: attr(aria-label);
+}
+
+.setModificado {
+    font-size: 14px;
+    position: relative;
+}
+
+.setModificado input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 14px;
+}
+.setModificado .sobreSalto {
+    position: absolute;
+    left: 12px;
+    bottom: 50%;
+    top: 22px;  
+    transform: translateY(-50%);
+    width: calc(100% - 24px);  
+    color: #aaa;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.setModificado {
+    --field-padding: 12px;
+}
+
+.setModificado input {
+    padding: var(--field-padding);
+}
+
+.setModificado .sobreSalto {
+    left: var(--field-padding);
+    width: calc(100% - (var(--field-padding) * 2));
+}
+
+.setModificado {
+    border-top: 20px solid transparent;
+}
+
+.setModificado input:focus + .sobreSalto {
+    top: -30px;
+    font-size: large;
+    color: #222;
+}
+
+.setModificado .sobreSalto {
+    transition: 
+    top 0.3s ease,
+    color 0.3s ease,
+    font-size 0.3s ease;
+}
+
+.setModificado input:not(:placeholder-shown) + .sobreSalto
+
+.setModificado input:focus + .sobreSalto {
+    top: -30px;
+    font-size: larger;
+    color: #222;
+}
+
+button {
+background-color: transparent;
+font-weight: semibold;
+color: #444;
+font-size: 0.9rem;
+padding: 0.6rem 0.8rem;
+border: 2px solid #eee;
+border-radius: .5rem;
+cursor: pointer;
+transition: all 1s ease;
+box-shadow: .5rem .5rem 1rem #ccc,
+    -.5rem -.5rem 1rem #fff;
+}
+
+button:hover {
+    box-shadow: .5rem .5rem 1rem #fff,
+    -.5rem -.5rem 1rem #ccc;
+}
+
+button:active {
+    box-shadow: inset .2rem .2rem 1rem #fff,
+    inset -.2rem -.2rem 1rem #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    background-color: transparent;
+    font-weight: semibold;
+    font-size: 0.9rem;
+
+}
+
+#footer {
+    width: 500px;
+    
+}

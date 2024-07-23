@@ -1,0 +1,8 @@
+RUTAS EN LOCALHOST::
+
+LOGIN
+http://localhost/sebad/
+
+VISTAS
+http://localhost/sebad/Resources/Views/
+
