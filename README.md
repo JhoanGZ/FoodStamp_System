@@ -1,7 +1,7 @@
 # Project Name
-
-![SEBAD](https://github.com/JhoanGZ/food_stamp/blob/main/resources/css/SEBAD%20Logo.jpg?raw=true)
-
+<p>
+  <center>![SEBAD](https://github.com/JhoanGZ/food_stamp/blob/main/resources/css/SEBAD%20Logo.jpg?raw=true)</center>
+</p>
 ## Overview
 
 **Project Name** is a PHP-based application developed as part of a university module for Database Management. This project was a collaborative effort among multiple contributors, showcasing our skills in backend development, database management, and user interface design.
