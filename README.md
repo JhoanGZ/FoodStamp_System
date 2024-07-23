@@ -11,8 +11,8 @@
 
 - **User Authentication:** Secure login and registration system.
 - **Database Management:** Efficient handling of data using MySQL.
-- **Feature X:** Brief description.
-- **Feature Y:** Brief description.
+- **Controlled Food Benefits for group or individual:** Can be created, assigned and deleted privileges.
+- **Report Creation:** It can be consulted multiple data reports in PDF.
 
 ## Technologies Used
 
@@ -25,12 +25,12 @@
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/YourUsername/YourRepository.git
+    git clone https://github.com/YourUsername/YourRepository.git
    ```
 2. **Clone the repository:**
    Navigate to the project directory:
    ```
-   cd YourRepository
+     cd YourRepository
    ```
 3. **Configure the database**
     Create a MySQL database.
@@ -38,7 +38,7 @@
 
 4. **Set up enviroment variable:**
   ```
-  php -S localhost:8000
+    php -S localhost:8000
   ```
   Open your browser and navigate to:
   http://localhost:8000
