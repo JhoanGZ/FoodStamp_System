@@ -35,19 +35,20 @@
 3. **Configure the database**
     Create a MySQL database.
     Import the provided SQL file located in the project folder
-Set up environment variables:
-4. **Set up enviroment variable:**
-```
-php -S localhost:8000
-```
-Open your browser and navigate to:
-http://localhost:8000
 
-## Usage
-Provide a brief guide on how to use your application. Include screenshots if possible to make it more engaging.
+4. **Set up enviroment variable:**
+  ```
+  php -S localhost:8000
+  ```
+  Open your browser and navigate to:
+  http://localhost:8000
 
 ## License
 This project is licensed under the MIT license.
+
+## Acknowledgements
+
+Special thanks to my partners and friends from university and assignment professor for their support for this project.
 
 ## Contact
 If you have any questions or feedback, feel free to reach me out!
