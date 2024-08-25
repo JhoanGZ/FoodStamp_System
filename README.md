@@ -1,4 +1,5 @@
 <h1 align="center"><strong> Food Stamp System - SEBAD </strong></h1>
+
 <p align="center">
   <img src="https://github.com/JhoanGZ/food_stamp/blob/main/resources/css/SEBAD%20Logo.jpg?raw=true" alt="Sebad Logo"/>
 </p>
@@ -19,7 +20,6 @@
 - **PHP:** Core language used for backend development.
 - **MySQL:** Database management system.
 - **HTML/CSS:** Frontend design and layout.
-- **JavaScript:** Interactive elements and functionality.
 
 ## Installation
 
